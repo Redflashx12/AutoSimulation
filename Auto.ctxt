@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=neueAmpel
+comment0.target=void\ ampelAendern(Ampel)
+comment1.params=
+comment1.target=void\ fahren()
+comment2.params=
+comment2.target=Auto()
+comment3.params=
+comment3.target=void\ starten()
+comment4.params=
+comment4.target=void\ run()
+comment5.params=
+comment5.target=void\ aktualisieren()
+comment6.params=millisekunden
+comment6.target=void\ warten(int)
+comment7.params=neuesX\ neuesY
+comment7.target=void\ positionAendern(int,\ int)
+comment8.params=neueFarbe
+comment8.target=void\ farbeAendern(java.lang.String)
+numComments=9

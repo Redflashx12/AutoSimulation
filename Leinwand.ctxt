@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Leinwand\ gibLeinwand()
+comment0.text=\r\n\ Fabrikmethode,\ die\ eine\ Referenz\ auf\ das\ einzige\ Exemplar\ dieser\ Klasse\r\n\ zur\u00FCckliefert.\ Wenn\ es\ von\ einer\ Klasse\ nur\ genau\ ein\ Exemplar\ gibt,\ wird\r\n\ dieses\ als\ 'Singleton'\ bezeichnet.\r\n
+comment1.params=
+comment1.target=void\ neuZeichnen()
+comment1.text=\r\n\ Klassenmethode\ um\ neues\ Zeichnen\ anzufordern.\r\n
+comment2.params=titel\ breite\ hoehe\ grundfarbe
+comment2.target=Leinwand(java.lang.String,\ int,\ int,\ java.awt.Color)
+comment2.text=\r\n\ Erzeuge\ eine\ Leinwand.\r\n\ \r\n\ @param\ titel\r\n\ \ \ \ \ \ \ \ \ \ \ \ Titel,\ der\ im\ Rahmen\ der\ Leinwand\ angezeigt\ wird\r\n\ @param\ breite\r\n\ \ \ \ \ \ \ \ \ \ \ \ die\ gew\u00FCnschte\ Breite\ der\ Leinwand\r\n\ @param\ hoehe\r\n\ \ \ \ \ \ \ \ \ \ \ \ die\ gew\u00FCnschte\ H\u00F6he\ der\ Leinwand\r\n\ @param\ grundfarbe\r\n\ \ \ \ \ \ \ \ \ \ \ \ die\ Hintergrundfarbe\ der\ Leinwand\r\n
+comment3.params=sichtbar
+comment3.target=void\ setzeSichtbarkeit(boolean)
+comment3.text=\r\n\ Setze,\ ob\ diese\ Leinwand\ sichtbar\ sein\ soll\ oder\ nicht.\ Wenn\ die\ Leinwand\r\n\ sichtbar\ gemacht\ wird,\ wird\ ihr\ Fenster\ in\ den\ Vordergrund\ geholt.\ Diese\r\n\ Operation\ kann\ auch\ benutzt\ werden,\ um\ ein\ bereits\ sichtbares\r\n\ Leinwandfenster\ in\ den\ Vordergrund\ (vor\ andere\ Fenster)\ zu\ holen.\r\n\ \r\n\ @param\ sichtbar\r\n\ \ \ \ \ \ \ \ \ \ \ \ boolean\ f\u00FCr\ die\ gew\u00FCnschte\ Sichtbarkeit\:\ true\ f\u00FCr\ sichtbar,\r\n\ \ \ \ \ \ \ \ \ \ \ \ false\ f\u00FCr\ nicht\ sichtbar.\r\n
+comment4.params=figur\ farbe\ shape
+comment4.target=void\ zeichne(java.lang.Object,\ java.lang.String,\ java.awt.Shape)
+comment4.text=\r\n\ Zeichne\ f\u00FCr\ das\ gegebene\ Figur-Objekt\ eine\ Java-Figur\ (einen\ Shape)\ auf\r\n\ die\ Leinwand.\r\n\ \r\n\ @param\ figur\r\n\ \ \ \ \ \ \ \ \ \ \ \ das\ Figur-Objekt,\ f\u00FCr\ das\ ein\ Shape\ gezeichnet\ werden\ soll\r\n\ @param\ farbe\r\n\ \ \ \ \ \ \ \ \ \ \ \ die\ Farbe\ der\ Figur\r\n\ @param\ shape\r\n\ \ \ \ \ \ \ \ \ \ \ \ ein\ Objekt\ der\ Klasse\ Shape,\ das\ tats\u00E4chlich\ gezeichnet\ wird\r\n
+comment5.params=figur
+comment5.target=void\ entferne(java.lang.Object)
+comment5.text=\r\n\ Entferne\ die\ gegebene\ Figur\ von\ der\ Leinwand.\r\n\ \r\n\ @param\ figur\r\n\ \ \ \ \ \ \ \ \ \ \ \ die\ Figur,\ deren\ Shape\ entfernt\ werden\ soll\r\n
+comment6.params=farbname
+comment6.target=void\ setzeZeichenfarbe(java.lang.String)
+comment6.text=\r\n\ Setze\ die\ Zeichenfarbe\ der\ Leinwand.\r\n\ \r\n\ @param\ farbname\r\n\ \ \ \ \ \ \ \ \ \ \ \ der\ Name\ der\ neuen\ Zeichenfarbe.\r\n
+numComments=7
